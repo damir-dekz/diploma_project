@@ -37,8 +37,8 @@ def student_page():
 
     st.write("Введите ваши данные для прогнозирования итоговой оценки (FIN):")
 
-    course_absence_rate = st.number_input("Процент пропуска занятий", min_value=0.0, max_value=100.0, value=0.0)
-    pf = st.number_input("Предварительные итоговые баллы (PF)", min_value=0.0, max_value=100.0, value=0.0)
+    course_absence_rate = st.number_input("Процент пропуска занятий", min_value=0, max_value=100, value=0)
+    pf = st.number_input("Предварительные итоговые баллы (PF)", min_value=0, max_value=100, value=0)
 
     if st.button("Предсказать"):
         # Нормализация данных
