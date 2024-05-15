@@ -1,0 +1,12 @@
+streamlit~=1.29.0
+pandas~=1.5.0
+numpy~=1.26.4
+seaborn~=0.13.2
+matplotlib~=3.8.3
+PyYAML~=6.0.1
+docxtpl~=0.16.8
+scikit-learn~=1.4.1.post1
+statsmodels~=0.13.5
+scipy~=1.12.0
+plotly~=5.19.0
+torch~=2.3.0
