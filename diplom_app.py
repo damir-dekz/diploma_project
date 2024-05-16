@@ -38,7 +38,7 @@ def student_page():
     st.write("Введите ваши данные для прогнозирования итоговой оценки (FIN):")
 
     course_absence_rate = st.number_input("Процент пропуска занятий", min_value=0, max_value=100, value=0)
-    pf = st.number_input("Предварительные итоговые баллы (PF)", min_value=0, max_value=100, value=0)
+    pf = st.number_input("Предварительные итоговые баллы(в процентах) (PF)", min_value=0, max_value=100, value=0)
 
     if st.button("Предсказать"):
         # Нормализация данных
@@ -50,7 +50,7 @@ def student_page():
         inputs = torch.tensor(X, dtype=torch.float32)
         prediction = model(inputs).item()
 
-        st.write(f"Предсказанная итоговая оценка (FIN): {round(prediction*100)}")
+        st.write(f"Предсказанная итоговая оценка(в процентах) (FIN): {round(prediction*100)}")
 
 
 # Страница для учителей
@@ -74,15 +74,11 @@ def teacher_page():
             # Предполагается, что данные содержат столбцы "Course Absence Rate" и "PF"
             X = data[['Course Absence Rate', 'PF']].values
 
-            # Нормализация данных
-            scaler = StandardScaler()
-            X_scaled = scaler.fit_transform(X)
-
             # Прогнозирование
-            inputs = torch.tensor(X_scaled, dtype=torch.float32)
+            inputs = torch.tensor(X, dtype=torch.float32)
             predictions = model(inputs).detach().numpy()
 
-            data['FIN Prediction'] = predictions
+            data['FIN Prediction'] = round(predictions, 2) if predictions > 0 else 0
             st.write("Данные с предсказанными оценками (FIN):")
             st.write(data)
 
