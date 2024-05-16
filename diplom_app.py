@@ -77,8 +77,9 @@ def teacher_page():
             # Прогнозирование
             inputs = torch.tensor(X, dtype=torch.float32)
             predictions = model(inputs).detach().numpy()
-
-            data['FIN Prediction'] = round(predictions, 2) if predictions > 0 else 0
+            for i in range(len(predictions)):
+                predictions[i] = np.round(predictions[i],2) if predictions[i] > 0 else 0
+            data['FIN Prediction'] = predictions
             st.write("Данные с предсказанными оценками (FIN):")
             st.write(data)
 
