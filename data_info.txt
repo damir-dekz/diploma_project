@@ -1,0 +1,13 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 205 entries, 0 to 204
+Data columns (total 6 columns):
+ #   Column               Non-Null Count  Dtype  
+---  ------               --------------  -----  
+ 0   Course Absence Rate  205 non-null    float64
+ 1   PF                   205 non-null    object 
+ 2   FIN                  200 non-null    object 
+ 3   RE                   13 non-null     object 
+ 4   AVG                  205 non-null    int64  
+ 5   LG                   205 non-null    object 
+dtypes: float64(1), int64(1), object(4)
+memory usage: 9.7+ KB
