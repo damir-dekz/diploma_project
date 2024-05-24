@@ -1,0 +1,7 @@
+Model results:
+                    Model  Precision  Recall  F1-Score  Accuracy  Err_3_1
+0           Random forest       0.85    0.85      0.85      0.80     0.00
+1     Logistic Regression       0.85    0.85      0.85      0.80     0.00
+2  Naive Bayes classifier       0.85    0.85      0.85      0.80     0.00
+3                 K-means       0.80    0.66      0.69      0.68     0.05
+4          Neural Network       0.85    0.85      0.85      0.80     0.00

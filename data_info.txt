@@ -7,7 +7,7 @@ Data columns (total 6 columns):
  1   PF                   205 non-null    object 
  2   FIN                  200 non-null    object 
  3   RE                   13 non-null     object 
- 4   AVG                  205 non-null    int64  
+ 4   TOTAL                205 non-null    int64  
  5   LG                   205 non-null    object 
 dtypes: float64(1), int64(1), object(4)
 memory usage: 9.7+ KB

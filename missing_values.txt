@@ -1,0 +1,7 @@
+Missing Values:
+Course Absence Rate    0
+PF                     0
+FIN                    0
+TOTAL                  0
+LG                     0
+Class                  0

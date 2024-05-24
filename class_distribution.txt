@@ -1,0 +1,4 @@
+Class Distribution:
+3    90
+2    87
+1    28
