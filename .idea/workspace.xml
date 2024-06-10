@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a987660-dec2-4d8d-9e89-f081e444b612" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/automation/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/img/bcc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/class_diplom-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/new_diplom-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/new_diplom-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/диплом-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_cleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplom_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/eda.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/диплом.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2gVGfwq82VuMah63hRGYR3cAjNG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/LESKHAND/Desktop/git_projects/diplom/diploma_project",
+    "last_opened_file_path": "C:/Users/LESKHAND/Desktop/git_projects/auto-validation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1715775437927</updated>
       <workItem from="1715775439292" duration="6194000" />
+      <workItem from="1716663776364" duration="4593000" />
+      <workItem from="1716802213594" duration="5000" />
+      <workItem from="1716808223061" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="update + app">
       <option name="closed" value="true" />
